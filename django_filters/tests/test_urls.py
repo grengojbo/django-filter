@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 from django_filters.tests.models import Book
 from ..views import FilterView
